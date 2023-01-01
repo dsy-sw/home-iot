@@ -1,9 +1,8 @@
-def test():
-    print('a')
+a = [1,2,3,4]
 
-b = {'a':test}
+b = {a:'a'}
 
-c = 'a'
+c = 1
+
 if c in b:
-    print('c')
-    print(b[c])
+    print(b)

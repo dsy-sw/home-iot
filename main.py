@@ -5,7 +5,7 @@ import ctypes
 from threading import Thread
 from multiprocessing import Queue, Process
 from ctypes import windll
-from pi.connect import Mqtt
+from network.mqtt import Mqtt
 
 from src.mcu.mcu import *
 from src.sql.sql import *
